@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/gradientback2"
+    tools:context=".mainprofile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:padding="25dp"
+
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="20dp"
+            android:background="@drawable/abc"
+            android:elevation="5dp"
+            android:textAlignment="center"
+            android:paddingHorizontal="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/propic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:civ_border_overlay="true"
+                android:src="@drawable/profile_holder"
+                />
+
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textColor="#225277"
+                android:paddingVertical="10dp"
+                android:fontFamily="@font/ruda_bold"
+                android:inputType="textPersonName|textMultiLine"
+                android:maxLength="30"
+                android:maxLines="2"
+                android:textSize="19sp"
+                android:minLines="1"
+                />
+
+            <EditText
+                android:id="@+id/address"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:clickable="false"
+                android:focusable="false"
+                android:maxLength="40"
+                android:maxLines="2"
+                android:minLines="1"
+                android:fontFamily="@font/amiko"
+                android:inputType="textEmailAddress"
+                android:paddingVertical="10dp"
+                android:textAlignment="center"
+                android:textColor="#244981"
+                android:textSize="14dp"
+
+                />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:paddingVertical="5dp"
+                android:fontFamily="@font/ruda_bold"
+                android:textColor="#244981"
+                android:maxLength="30"
+                android:drawableEnd="@drawable/varified"
+                android:inputType="textEmailAddress"
+
+                />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/ruda_bold"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:maxLength="14"
+                android:maxLines="1"
+                android:minLines="1"
+                android:drawableEnd="@drawable/varified"
+                android:textColor="#244981"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cd"
+                android:elevation="10dp"
+                android:fontFamily="@font/amiko_semibold"
+                android:text="প্রোফাইল পরিবর্তন করুন"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/abc"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/abc"
+                android:padding="5dp"
+            android:gravity="center|top"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textView9a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="@font/antic"
+                android:textColor="#4C5358"
+
+                android:text="ড্যাশবোর্ড" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/abc"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/donate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/antic"
+                    android:textColor="#F57C00"
+                    android:text="DONATED" />
+
+                <TextView
+                    android:id="@+id/posted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/antic"
+                    android:textColor="#F57C00"
+                    android:text="POSTED" />
+
+                <TextView
+                    android:id="@+id/helped"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/antic"
+                    android:textColor="#F57C00"
+                    android:text="HELPED" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/abc"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/don"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:paddingHorizontal="-15dp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/antic"
+                    android:textColor="#163144"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/pos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/antic"
+                    android:textColor="#163144"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/hel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/antic"
+                    android:textColor="#163144"
+                    android:text="0" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

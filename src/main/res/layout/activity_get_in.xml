@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="15dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".getIN">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="205dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/logopran" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/antic"
+        android:text="পাসওয়ার্ড রিসেট"
+        android:textAlignment="center"
+        android:textColor="#1E88E5"
+        android:textSize="22dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Subhead"
+
+        >
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/a2"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:hint=" ইমেইল প্রবেশ করাও"
+            android:paddingStart="3dp"
+            android:paddingVertical="12dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/hover"
+        android:paddingVertical="12dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:text="পাসওয়ার্ড রিসেট করুন" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+</LinearLayout>

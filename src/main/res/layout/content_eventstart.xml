@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".eventstart"
+    android:padding="10dp"
+    android:background="#F3F3F3"
+    tools:showIn="@layout/activity_eventstart">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dotted"
+        android:layout_margin="4dp"
+        android:padding="10dp"
+        android:elevation="1dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/capriola"
+            android:textColor="#383838"
+            android:background="@drawable/botstroke"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:text="ইভেন্ট নাম"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/organizer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/capriola"
+            android:textColor="#383838"
+            android:textSize="12dp"
+            android:padding="5dp"
+            android:text="সংগঠক" />
+
+        <TextView
+            android:id="@+id/descriptionz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/capriola"
+            android:textColor="#383838"
+            android:textSize="12dp"
+            android:padding="5dp"
+            android:text="বিবরন" />
+        <TextView
+        android:id="@+id/van"
+        android:layout_width="match_parent"
+            android:padding="5dp"
+            android:fontFamily="@font/capriola"
+            android:textColor="#383838"
+            android:textSize="12dp"
+        android:layout_height="wrap_content"
+        android:text="সময় ও যায়গা" />
+        <TextView
+            android:id="@+id/bkash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:fontFamily="@font/capriola"
+            android:textColor="#383838"
+            android:textSize="12dp"
+            android:text="বিকাশ ও ব্যাংক বিবরন" />
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:fontFamily="@font/capriola"
+            android:textColor="#4D4D4D"
+            android:textSize="12dp"
+            android:autoLink="web"
+            android:text="ইভেন্ট লিঙ্ক" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/abc"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/julius_sans_one"
+                android:text="লেন্দেন বিবরন"
+                android:textColor="#1E88E5"
+
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+                android:focusable="true"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a"
+                    android:hint="্টাকার পরিমান"
+                    android:imeOptions="actionNext"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="5dp"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+                android:focusable="true"
+                >
+
+                <EditText
+                    android:id="@+id/trx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:hint="টিআরএক্স আইডি"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="5dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+                android:focusable="true"
+                >
+
+                <EditText
+                    android:id="@+id/number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:hint="মোবাইল নম্বর"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="5dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:elevation="3dp"
+            android:layout_marginHorizontal="8dp"
+            android:gravity="center"
+             android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/abc"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/julius_sans_one"
+                android:text="বা জিনিস দান করে সহায়তা করুন"
+                android:textColor="#1E88E5"
+
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+                android:focusable="true"
+                >
+
+                <EditText
+                    android:id="@+id/type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:hint="পণ্য বিবরণ"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="5dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+                android:focusable="true"
+                >
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+                android:focusable="true"
+                >
+
+                <EditText
+                    android:id="@+id/quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:hint="পণ্য পরিমাণ (প্রয়োজনীয়)"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="5dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+                android:focusable="true"
+                >
+
+                <EditText
+                    android:id="@+id/note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a"
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:hint="মন্তব্য"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="5dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/sendM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:fontFamily="@font/sintony"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:paddingVertical="12dp"
+            android:text="পাঠান➡"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:elevation="10dp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/pbarx"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

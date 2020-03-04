@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/ab"
+    android:elevation="1dp"
+    android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="10dp"
+    android:paddingBottom="10dp"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/nameza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#19A3FF"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/arimo"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:text="Mohammad Kibria" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/addressza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:textColor="#1D5D96"
+            android:textAlignment="center"
+
+            android:paddingVertical="2dp"
+            android:textSize="15sp"
+
+            android:paddingHorizontal="15dp"
+            android:text="Sukrabad Masjid ar samne, Dhanmondi, Dhaka" />
+
+        <TextView
+            android:id="@+id/needsza"
+            android:layout_width="match_parent"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:paddingVertical="2dp"
+            android:fontFamily="@font/arimo"
+            android:paddingHorizontal="15dp"
+            android:textColor="#1D5D96"
+            android:layout_height="wrap_content"
+            android:text="processed food and medicine for fever(peracetamol)" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:paddingHorizontal="15dp"
+            android:padding="5dp"
+            android:fontFamily="@font/arimo"
+            android:textColor="#363636"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ageza"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/arimo"
+                android:textColor="#0085FF"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="মহিলা" />
+
+            <TextView
+                android:id="@+id/reasonza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:padding="3dp"
+                android:fontFamily="@font/arimo"
+                android:textColor="#363636"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:text="Disability" />
+
+            <TextView
+                android:id="@+id/timeza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:padding="4dp"
+                android:fontFamily="@font/arimo"
+                android:textColor="#0087FF"
+
+
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/days_one"
+            android:text="সাহায্য করুন"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="10dp"
+          android:layout_marginEnd="10dp"
+            android:textSize="15sp"
+            android:elevation="3dp"
+            android:textColor="#16A2FF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/days_one"
+            android:layout_marginStart="10dp"
+            android:elevation="3dp"
+            android:textColor="#16A2FF"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="শেয়ার করুন"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+   android:gravity="center"
+    android:background="@drawable/abc"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:background="#FFFFFF"
+            android:textSize="25sp"
+            android:textColor="#039BE5"
+            android:textStyle="bold"
+            android:fontFamily="@font/duru_sans"
+            android:layout_height="wrap_content"
+            android:text="সাহায্য প্রেরণ কি" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:fontFamily="@font/basic"
+            android:textAlignment="center"
+            android:background="#52FFFFFF"
+            android:layout_height="wrap_content"
+            android:maxLines="10"
+            android:text="আপনি যখন সহায়তা প্রেরণ বৈশিষ্ট্যটি ব্যবহার করে সরাসরি আমাদের প্রেরণের জন্য কোনও সামগ্রী পোস্ট করেন, আমরা আপনার দরজা ধাপ থেকে আপনার পণ্যটি তুলে নেব এবং যাদের সত্যই সহায়তা প্রয়োজন তাদের কাছে এই পণ্যটি সরবরাহ করব। আমরা নিশ্চিত করব যে আপনার পণ্যটি সঠিক ব্যক্তির কাছে পৌঁছে যাবে যার সবচেয়ে বেশি প্রয়োজন।" />
+    </LinearLayout>
+
+</LinearLayout>

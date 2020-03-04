@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/b"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta_stencil"
+            android:background="@drawable/abc"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:text="NAME: MOHAMMAD ALADIN AHMED"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="ADDRESS: block D, front of house b/2,Lalmatia, dhaka"
+            android:background="@drawable/abc"
+            android:padding="5dp"
+            android:textColor="#464141"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/needsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/abc"
+            android:padding="5dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="AGE: 50+ "
+            android:textColor="#414141"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/addrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/abc"
+            android:padding="5dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:text=" TIME REMAINING: 1h 30m"
+            android:textColor="#494949"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/abc"
+            android:padding="5dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="NEEDS: Suffering from cold. Need cold cloths."
+            android:textColor="#E53935"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/timea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/abc"
+            android:padding="5dp"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="STATUS: You helped thjs person at 5:32pm thursday"
+            android:textColor="#E53935"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical"
+    tools:context=".pending">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arimo"
+        android:text="আপনার কাছাকাছি সাহায্য অনুরোধ"
+        android:textColor="#0288D1"
+android:background="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/textVisew5"
+        android:layout_width="match_parent"
+        android:paddingBottom="5dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arimo"
+        android:text="আপনি যদি পারেন তবে তাদের সহায়তা করুন। আপনি যদি তাকে সহায়তা করেন তবে দয়া করে আপনার এবং সেই ব্যক্তির একটি ছবি তার নামের সাথে আমাদের প্রেরণ করুন। আপনাকে আন্তরিক এবং সৎ হওয়ার জন্য অনেক ধন্যবাদ।"
+        android:textColor="#494949"
+       android:background="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#EEEEEE"
+    android:id="@+id/rv"
+    />
+</LinearLayout>

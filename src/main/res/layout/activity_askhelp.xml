@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical"
+
+    tools:context=".askhelp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/faq"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:background="@drawable/ic_error_black_24dp"
+            android:elevation="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:text="সহায়তা প্রেরণের বিষয়ে আরও জানতে এখানে ক্লিক করুন"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/abc"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingHorizontal="12dp">
+        <TextView
+            android:id="@+id/namea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cabin_semibold"
+            android:padding="3dp"
+            android:background="@drawable/botstroke"
+            android:textAlignment="center"
+            android:text="আপনার ব্যক্তিগত তথ্য"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="#5AAFFF"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:text="NAME: "
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:maxLines="1"
+            android:text="ADDRESS :"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arimo"
+            android:text="CONTACT :"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:elevation="2dp"
+
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+
+        android:layout_height="wrap_content"
+        android:background="@drawable/abc"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/julius_sans_one"
+            android:text="সহায়তা বিবরন"
+            android:textColor="#50ADFF"
+
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+            android:focusable="true"
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/helptype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a"
+                android:hint="পণ্য প্রকার (প্রয়োজনীয়)"
+                android:imeOptions="actionNext"
+                android:paddingVertical="8dp"
+                android:paddingStart="5dp"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+            android:focusable="true"
+            >
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="পণ্য বিবরণ (প্রয়োজনীয়)"
+                android:paddingVertical="8dp"
+                android:paddingStart="5dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+            android:focusable="true"
+            >
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="পণ্য পরিমাণ (প্রয়োজনীয়)"
+                android:paddingVertical="8dp"
+                android:paddingStart="5dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            app:hintTextAppearance="@style/TextAppearance.Compat.Notification"
+            android:focusable="true"
+            >
+
+            <EditText
+                android:id="@+id/note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="মন্তব্য"
+                android:paddingVertical="8dp"
+                android:paddingStart="5dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:fontFamily="@font/sintony"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:text="সহায়তা পাঠান➡"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:elevation="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/postbar"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Inverse"
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/amaranth</item>
+        <item>@font/amiko</item>
+        <item>@font/amiko_semibold</item>
+        <item>@font/antic</item>
+        <item>@font/antic_slab</item>
+        <item>@font/anton</item>
+        <item>@font/archivo_black</item>
+        <item>@font/arima_madurai_medium</item>
+        <item>@font/arimo</item>
+        <item>@font/baloo_tamma</item>
+        <item>@font/basic</item>
+        <item>@font/belgrano</item>
+        <item>@font/biryani_extralight</item>
+        <item>@font/bungee</item>
+        <item>@font/cabin_semibold</item>
+        <item>@font/candal</item>
+        <item>@font/cantora_one</item>
+        <item>@font/capriola</item>
+        <item>@font/catamaran_thin</item>
+        <item>@font/changa</item>
+        <item>@font/chelsea_market</item>
+        <item>@font/days_one</item>
+        <item>@font/doppio_one</item>
+        <item>@font/duru_sans</item>
+        <item>@font/federo</item>
+        <item>@font/francois_one</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/hind_guntur</item>
+        <item>@font/iceberg</item>
+        <item>@font/julius_sans_one</item>
+        <item>@font/libre_franklin_medium</item>
+        <item>@font/pavanam</item>
+        <item>@font/poly</item>
+        <item>@font/prosto_one</item>
+        <item>@font/quicksand_light</item>
+        <item>@font/ramabhadra</item>
+        <item>@font/roboto_mono_medium</item>
+        <item>@font/ruda_bold</item>
+        <item>@font/ruluko</item>
+        <item>@font/russo_one</item>
+        <item>@font/sintony</item>
+        <item>@font/titan_one</item>
+    </array>
+</resources>

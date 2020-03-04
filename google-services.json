@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "96989764443",
+    "firebase_url": "https://beuman-b8d9c.firebaseio.com",
+    "project_id": "beuman-b8d9c",
+    "storage_bucket": "beuman-b8d9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96989764443:android:9072cb3c5101e02407587e",
+        "android_client_info": {
+          "package_name": "com.example.beuman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96989764443-4fnit2hbjah7apvcda8kru2qofutq2ae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beuman",
+            "certificate_hash": "d7c05b66e0492f0ba7a4ac5bac7a12691a56caa9"
+          }
+        },
+        {
+          "client_id": "96989764443-7g5gko8ru79t73q5i7l6f76mdq8hh0ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGYYQkVzZj0_3swnOe1wUAYyxz5qMJ_EM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96989764443-7g5gko8ru79t73q5i7l6f76mdq8hh0ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
