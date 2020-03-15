@@ -1,4 +1,5 @@
-**Some screenshot of our platform shared below. Thankyou very much**
+**Some screenshots of our platform shared below. Thankyou very much**
+** **
 | ![Its the reg activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/signin.png) | 
 |:--:| 
 | *Its the reg activity of PranoBandhu* |
