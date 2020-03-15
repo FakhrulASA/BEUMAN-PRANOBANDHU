@@ -1,1 +1,1 @@
-Pranabandhu is a platform where people will able to help other people by seeing them directly, donating money in our fund and by sending helps to us for bringing these product to the people who want help.
+
