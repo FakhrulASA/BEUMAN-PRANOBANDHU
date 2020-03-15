@@ -1,7 +1,16 @@
-![Its the reg activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/signin.png)
-![Its the home activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/home.png)
-![Its the profile activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/menu.png)
-![Its the one of many helping system activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/help.png)
-| ![space-1.jpg](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/signin.png) | 
+![It is the reg activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/signin.png)
+![It is the home activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/home.png)
+![It is the profile activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/menu.png)
+![It is the one of many helping system activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/help.png)
+| ![Its the reg activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/signin.png) | 
 |:--:| 
 | *Its the reg activity of PranoBandhu* |
+| ![It is the home activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/home.png) | 
+|:--:| 
+| *It is the home activity of PranoBandhu* |
+| ![It is the profile activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/menu.png) | 
+|:--:| 
+| *It is the one of many helping system activity of PranoBandhu* |
+| ![It is the profile activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/help.png) | 
+|:--:| 
+| *It is the one of many helping system activity of PranoBandhu* |
