@@ -1,7 +1,4 @@
-![It is the reg activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/signin.png)
-![It is the home activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/home.png)
-![It is the profile activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/menu.png)
-![It is the one of many helping system activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/help.png)
+**Some screenshot of our platform shared below. Thankyou very much**
 | ![Its the reg activity of PranoBandhu](https://github.com/FakhrulASA/BEUMAN-PRANOBANDHU/blob/master/signin.png) | 
 |:--:| 
 | *Its the reg activity of PranoBandhu* |
